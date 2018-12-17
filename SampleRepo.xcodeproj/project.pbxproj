@@ -12,6 +12,7 @@
 		AE56EFE321C77E8500E66F88 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE56EFE121C77E8500E66F88 /* Main.storyboard */; };
 		AE56EFE521C77E8800E66F88 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE56EFE421C77E8800E66F88 /* Assets.xcassets */; };
 		AE56EFE821C77E8800E66F88 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE56EFE621C77E8800E66F88 /* LaunchScreen.storyboard */; };
+		AE56EFF021C77FB300E66F88 /* NewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE56EFEF21C77FB300E66F88 /* NewViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		AE56EFE421C77E8800E66F88 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AE56EFE721C77E8800E66F88 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AE56EFE921C77E8800E66F88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE56EFEF21C77FB300E66F88 /* NewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				AE56EFE421C77E8800E66F88 /* Assets.xcassets */,
 				AE56EFE621C77E8800E66F88 /* LaunchScreen.storyboard */,
 				AE56EFE921C77E8800E66F88 /* Info.plist */,
+				AE56EFEF21C77FB300E66F88 /* NewViewController.swift */,
 			);
 			path = SampleRepo;
 			sourceTree = "<group>";
@@ -135,6 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE56EFF021C77FB300E66F88 /* NewViewController.swift in Sources */,
 				AE56EFE021C77E8500E66F88 /* ViewController.swift in Sources */,
 				AE56EFDE21C77E8500E66F88 /* AppDelegate.swift in Sources */,
 			);
